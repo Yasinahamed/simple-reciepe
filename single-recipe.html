@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+   
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="Tasty Treats" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img  src="./assets/recipes/CB.jpg" class="img recipe-hero-img"/>
+          <article class="recipe-info">
+            <h2>Chicken Biryani</h2>
+            <p>
+              Chicken Biryani is a fragrant and flavorful rice dish that's rich in spices and marinated chicken. This classic Indian recipe is perfect for any occasion, offering a delicious combination of tender chicken, aromatic basmati rice, and an array of spices that tantalize your taste buds.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>45 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">Dessert</a>
+              <a href="tag-template.html">breakfast</a>
+              <a href="tag-template.html">pancakes</a>
+              <a href="tag-template.html">food</a>
+            </p>
+          </article>
+        </section>
+       
+        <section class="recipe-content">
+          <article>
+            <h4>Instructions</h4>
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Marinate the chicken with yogurt, turmeric, red chili powder, garam masala, ginger-garlic paste, and salt. Let it sit for at least 30 minutes.
+              </p>
+            </div>
+      
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                In a large pot, heat oil and fry sliced onions until golden brown. Add marinated chicken and cook until the chicken is browned.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Add water and bring to a boil. Layer the partially cooked rice on top of the chicken, cover, and cook on low heat until the rice is fully cooked.
+              </p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>Ingredients</h4>
+              <p class="single-ingredient">2 cups basmati rice</p>
+              <p class="single-ingredient">1 lb chicken, cut into pieces</p>
+              <p class="single-ingredient">1 cup yogurt</p>
+              <p class="single-ingredient">2 onions, thinly sliced</p>
+              <p class="single-ingredient">2 tbsp ginger-garlic paste</p>
+              <p class="single-ingredient">Spices: turmeric, red chili powder, garam masala, salt</p>
+              <p class="single-ingredient">2 tbsp oil</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Large Pot</p>
+                        <p class="single-tool">Mixing Bowl</p>
+                        <p class="single-tool">Wooden Spoon</p>
+                        <p class="single-tool">Measuring Cups and Spoons</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Tasty Treats</span>
+        
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
